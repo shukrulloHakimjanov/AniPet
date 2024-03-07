@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-container {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-container ul {
+  display: flex;
+}
+.navbar .navbar-container ul li {
+  list-style-type: none;
+}
+.navbar .navbar-container ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #102955;
+  display: block;
+  padding: 1.7rem 1.5rem;
+}
+
+.container1 {
+  height: 100vh;
+  position: relative;
+}
+.container1 .container1-img1 {
+  position: absolute;
+  z-index: -1;
+}
+.container1 .overlay {
+  width: 75vw;
+  height: 95%;
+  margin: auto;
+  display: flex;
+}
+.container1 .overlay .chap {
+  width: 30%;
+  display: grid;
+  place-items: center;
+}
+.container1 .overlay .chap h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.container1 .overlay .chap h1 .span1 {
+  font-weight: 100;
+}
+.container1 .overlay .chap h1 .span2 {
+  font-weight: bold;
+}
+.container1 .overlay .chap p {
+  color: #fff;
+  line-height: 1.5;
+  margin: 2rem 0;
+}
+.container1 .overlay .chap button {
+  padding: 1rem 3rem;
+  background-color: white;
+  color: #ff3500;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.container1 .overlay .chap button:hover {
+  background-color: #ff3500;
+  color: white;
+}
+.container1 .overlay .ong {
+  width: 60%;
+}
+.container1 .overlay .ong img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.kattadiv {
+  width: 100%;
+  height: 100vh;
+}
+.kattadiv .h11 {
+  text-align: center;
+  font-size: 60px;
+  color: rgb(13, 13, 117);
+}
+.kattadiv .p11 {
+  text-align: center;
+}
+.kattadiv .div100 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.kattadiv .div100 .div11 {
+  border: 1px solid #e83e8c;
+  width: 25%;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 70px 25px 65px 25px;
+  transition: 0.5s;
+}
+.kattadiv .div100 .div11:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 10px rgba(102, 102, 102, 0.199);
+}
+.kattadiv .div100 .div11 .cv {
+  display: flex;
+  position: relative;
+}
+.kattadiv .div100 .div11 .cv .img1 {
+  display: block;
+  margin: auto;
+}
+.kattadiv .div100 .div11 .cv .img2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.kattadiv .div100 .div11 p {
+  padding: 0.5rem;
+  text-align: center;
+}
+.kattadiv .div100 .div11 .p1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.kattadiv .div100 .div11 .p2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #666;
+}
+
+.div59 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: auto;
+}
+
+.div111 {
+  margin-left: 110px;
+}
+.div111 .h900 {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+.div111 .h666 {
+  font-size: 50px;
+}
+.div111 .p41 {
+  color: #66666f;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.div111 .hhh3 {
+  padding: 1.5rem 3.5rem;
+  background-color: orangered;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.div111 .hhh3hover {
+  background-color: red;
+}
+
+.div008 {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 6rem;
+}
+
+.p10 {
+  font-size: 60px;
+  color: #191d34;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.p11 {
+  font-size: 15px;
+}
+
+.b1 {
+  padding: 1rem 4rem;
+  background-color: #ff3500;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.b1:hover {
+  background-color: #ff3500;
+  color: white;
+}
+
+.divcha2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.divcha2 .divchaong .salom {
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 0px 0px 8px grey;
+  border-radius: 10px;
+}
+.divcha2 .divchachap .salom {
+  text-align: center;
+  font-size: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px grey;
+  margin-top: 2rem;
+}
+.divcha2 .divchachap .salom h1, .divcha2 .divchachap .salom p {
+  text-align: center;
+}
+.gfd {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.gfd .rasm {
+  padding: 30px;
+}
+.gfd .rasm .imgigm {
+  height: 100%;
+  width: 100%;
+}
+.gfd .soz .h909 {
+  font-size: 25px;
+}
+.gfd .soz .p909 {
+  font-size: 25px;
+  color: grey;
+}
+.gfd .soz .rdrd {
+  color: grey;
+  font-size: 25px;
+}
+
+.ndiv {
+  text-align: center;
+}
+.ndiv .ghk {
+  font-size: 50px;
+  color: #191d34;
+}
+.ndiv .ppoi {
+  color: grey;
+  font-size: 20px;
+}
+
+.ldiv {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+}
+.ldiv .mdiv {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.ldiv .mdiv .limg {
+  z-index: -1;
+}
+.ldiv .mdiv .hdiv {
+  padding: 10px 40px 10px;
+  box-shadow: 0 0 8px;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  transition: 0.3s;
+}
+.ldiv .mdiv .hdiv:hover {
+  transform: translateY(-10px);
+}
+.din {
+  position: relative;
+}
+.din .kimg {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.din .diw {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 25%;
+}
+.din .diw .uy {
+  font-size: 50px;
+  color: #fff;
+}
+.din .diw .puy {
+  font-size: 25px;
+  color: #fff;
+}
+.din .diw .kuy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.din .diw .kuy .buy {
+  padding: 1rem 3rem;
+  background-color: white;
+  color: #ff3500;
+  border-radius: 30px;
+  border: none;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+.din .diw .kuy .buy:hover {
+  background-color: #ff3500;
+  color: white;
+}
+.din .diw .kuy .quy {
+  font-size: 25px;
+  color: #fff;
+}
+
+.un {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  gap: 6rem;
+}
+.un .tdiv .ulk {
+  list-style-type: none;
+  font-size: 10px;
+}
+.un .tdiv .ulg {
+  list-style-type: none;
+  color: grey;
+}
+.un .tdiv .ulg:hover {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
